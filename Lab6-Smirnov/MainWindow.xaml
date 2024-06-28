@@ -1,0 +1,14 @@
+﻿<Window x:Class="ReverseArrayApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Reverse Array" Height="300" Width="400">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Enter floating-point numbers separated by spaces:"/>
+            <TextBox x:Name="InputMemo" Margin="0,5" Height="100"/>
+            <Button Content="Reverse Array" Click="ReverseArray_Click" Margin="0,10"/>
+            <TextBlock Text="Reversed array:" Margin="0,10"/>
+            <TextBox x:Name="OutputMemo" Margin="0,5" Height="100" IsReadOnly="True"/>
+        </StackPanel>
+    </Grid>
+</Window>
